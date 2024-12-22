@@ -1,6 +1,19 @@
-.txt {
-  color: rgb(82, 183, 0);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  width: 1200px;
+  margin: auto;
 }
-.txt2 {
-  color: rgb(0, 18, 183);
+.card-container {
+  width: 900px;
+  margin: auto;
+}
+.image-overlay {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(0, 0, 0, 0.7)
+  );
 }
